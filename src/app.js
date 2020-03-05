@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/styles.css';
+import './app.css';
+
 
 const App = () => {
     return (
@@ -9,5 +10,4 @@ const App = () => {
         </div>
     )
 }
-
-ReactDOM.render(<App/>, document.getElementById('root'));
+export default App
