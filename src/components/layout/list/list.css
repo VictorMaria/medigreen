@@ -1,0 +1,38 @@
+.whole {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 18% 5% 18%;
+}
+
+.price-history {
+    text-align: center;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.price-history {
+    padding-bottom: 20%;
+}
+
+.product-and-prices {
+    padding-bottom: 20%;
+}
+
+@media screen and (max-width: 938px) {
+    .whole {
+        flex-direction: column;
+        justify-content: center;
+    }
+    table {
+        width: 100%
+    }
+}
+

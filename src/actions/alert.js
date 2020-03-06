@@ -1,8 +1,7 @@
-import uuid from "uuid";
-import { SET_ALERT, REMOVE_ALERT } from "./types";
+import { SET_ALERT, REMOVE_ALERT } from './types';
 
 const setAlert = (msg, alertType) => dispatch => {
-  const id = uuid.v4();
+  const id = Date.now();
   dispatch({
     type: SET_ALERT,
     payload: {
