@@ -108,6 +108,7 @@ class List extends Component {
     this.setState({
       list: this.state.list.filter(product => product.id !== productId)
     });
+    this.props.setAlert('Product Deleted!', 'delete-success');
   };
   async componentDidMount() {
     const newList = await fetchDrugList();
