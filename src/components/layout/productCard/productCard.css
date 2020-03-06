@@ -1,0 +1,12 @@
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e9e8e0;
+  border: 2px solid #e9e8e0;
+  border-radius: 15px;
+}
+
+#name, #price {
+    color: black;
+}

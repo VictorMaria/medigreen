@@ -1,0 +1,14 @@
+.alert-alert-success {
+    color: white;
+    background-color: #abbd81;
+    padding-left: 3%;
+    font-size: 25.5px;
+}
+
+.alert-alert-failure {
+    color: white;
+    background-color: #e15b64;
+    padding-left: 3%;
+    font-size: 25.5px;
+}
+
